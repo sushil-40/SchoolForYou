@@ -1,6 +1,7 @@
 import "./App.css";
 import Button from "./components/Button";
 import Card from "./components/Card";
+import Comp from "./components/Comp";
 import Layout from "./components/Layout";
 
 function App() {
@@ -40,10 +41,17 @@ function App() {
     //   <Button title="Click Me" func={buttonOnClick} />
     //   <Button title="Touch Me" func={buttonTwoClick} />
     // </div>
+
+    // layout
+    // <div className="layout">
+    //   <Layout title={"Hello"}>
+    //     <h1>How are you?</h1>
+    //   </Layout>
+    // </div>
+
     <div className="layout">
-      <Layout title={"Hello"}>
-        <h1>How are you?</h1>
-      </Layout>
+      <Comp title={"Sushil"} age={24} />
+      <Comp title={"Sushi"} />
     </div>
   );
 }
