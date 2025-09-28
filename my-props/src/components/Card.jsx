@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({ name, age, data, isStudent }) => {
+const Card = ({ name, age, data, isStudent, content }) => {
   return (
     <div className="card">
       <div>{name}</div>
@@ -8,6 +8,7 @@ const Card = ({ name, age, data, isStudent }) => {
       <div>{data?.title}</div>
       <h4>{data?.rank}</h4>
       <h3>{isStudent}</h3>
+      {content}
     </div>
   );
 };

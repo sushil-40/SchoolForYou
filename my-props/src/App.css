@@ -10,3 +10,13 @@
   flex-direction: column;
   gap: 1rem;
 }
+.btn {
+  display: grid;
+}
+.btn-content {
+  font-size: 20px;
+  background-color: coral;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 5px;
+}
