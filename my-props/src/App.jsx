@@ -5,10 +5,10 @@ import Comp from "./components/Comp";
 import Layout from "./components/Layout";
 
 function App() {
-  // const obj = {
-  //   title: "Test",
-  //   rank: 21,
-  // };
+  const obj = {
+    name: "Test",
+    rank: 21,
+  };
   // const buttonOnClick = () => {
   //   console.log("Button is clicked  1.");
   //   setTimeout(() => {
@@ -52,6 +52,7 @@ function App() {
     <div className="layout">
       <Comp title={"Sushil"} age={24} />
       <Comp title={"Sushi"} />
+      <Comp {...obj} />
     </div>
   );
 }
