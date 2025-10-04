@@ -1,5 +1,6 @@
 import "./App.css";
 import Card from "./Card";
+import HookExample from "./hooks/hookExample";
 
 function App() {
   // Why state ?
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
       <Card />
+      <HookExample />
     </>
   );
 }
