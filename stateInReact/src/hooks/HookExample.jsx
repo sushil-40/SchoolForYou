@@ -13,7 +13,7 @@ const HookExample = () => {
   useEffect(() => {
     // alert("Hello I am using useEffect hook");
     console.log("Hello how are you?");
-  }, [count]);
+  }, [count, decValue]);
   return (
     <div>
       <h1>hookExample</h1>
