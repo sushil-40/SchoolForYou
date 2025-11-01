@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import "./App.css";
+import MultiInputField from "./components/MultiInputField";
 
 function App() {
   const [name, setName] = useState("");
@@ -15,7 +16,7 @@ function App() {
   }
   return (
     <>
-      <div>
+      {/* <div>
         <input
           type="text"
           value={name}
@@ -32,6 +33,9 @@ function App() {
         <br />
         <br />
         <button onClick={submit}>Submit</button>
+      </div> */}
+      <div>
+        <MultiInputField />
       </div>
     </>
   );
