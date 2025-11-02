@@ -1,4 +1,7 @@
 import "./App.css";
+import Toggle from "./component/Toggle";
+import ContentVar from "./ContentVar";
+import RenderingMethod from "./RenderingMethod";
 
 function App() {
   const option = "a";
@@ -25,6 +28,9 @@ function App() {
       ) : (
         <h1>Other Component</h1>
       )}
+      <RenderingMethod />
+      <ContentVar />
+      <Toggle />
     </>
   );
 }
